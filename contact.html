@@ -17,18 +17,27 @@
             <p>i am Hanna, i am expert <strong>Java</strong> Developer who has been on java since <em>6</em> years. i am passionate about working in different types of programming language.</p></td>
     </table>
     <hr>
-    <h3>contact .....Us</h3>
+    <h3>contact .....Us</h3>  <!-- <br>   placeholder?left -->
     <form method="POST" action="mailto:se.hanna.kebede@gmail.com" enctype="UTF-8" > 
        <label for="fname">F name</label>
-        <input type="text" name="fname" id="fname" required>
+        <input type="text" name="fname" id="fname" pattern="[A-Za-z]{1,15}" title="F name must contain only letter and between 1 and 15 length character!" required>
         &nbsp;&nbsp;
         <br>
+        <br>
        <label for="lname">L name</label>
-        <input type="text" name="lname" id="lname" required>
+        <input type="text" name="lname" id="lname" pattern="[A-Za-z]{1,15}" title="L name must contain only letter and between 1 and 15 length character!" required>
+        <br>
         <br>
        <label for="eml">Email</label> 
        <input type="email" name="email" id="eml" required>
        <br>
+       <br>
+       <label for="password">password</label>
+       <input type="text" name="password" id="password" pattern="^[A-Za-z0-9]{6,12}" required>
+       <br><br>
+       <label for="phone number">phone number</label>
+       <input type="text" name="phone" id="phone number" pattern="[0-9]{10}">
+       <br><br>
        where are you from:
        <select name="Country" id="">
            <option value="Af">Africa</option>
@@ -40,7 +49,7 @@
        Live comment
        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
        <br>
-        <input type="Submit" name="submit">
+       <input type="submit" value="Submit">
        <br>
     </form>
 <a href="http://">facebook</a>
