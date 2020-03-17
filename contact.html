@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hanna Z</title>
     <link rel="icon" href="asset/favicon.png">
-    <!-- <link rel="stylesheet" href="asset/contacts.css"> -->
+    <link rel="stylesheet" type="text/css" href="asset/mycv.css">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
         </td>
         </tr> 
         <tr> 
-            <td><img src="asset/images/img11.jpeg" alt="mypic"></td>
+            <td><img src="asset/images/imgw2.jpeg" alt="mypic"></td>
         </tr>
     </table>
     <h1>Hanna Z</h1>
@@ -32,45 +32,39 @@
     <h3>Contact .....Us</h3>  
     <table>
         <td><div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa%20institute%20of%20technology&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></td>
-        <form method="POST" action="mailto:se.hanna.kebede@gmail.com" enctype="UTF-8" > 
-            <td><label for="fname">F name</label>
-            <input type="text" name="fname" id="fname" pattern="[A-Za-z]{1,15}" title="F name must contain only letter and between 1 and 15 length character!" placeholder="Your First Name" required>
-            &nbsp;&nbsp;
-            <br>
-            <br>
-        <label for="lname">L name</label>
-            <input type="text" name="lname" id="lname" pattern="[A-Za-z]{1,15}" title="L name must contain only letter and between 1 and 15 length character!" placeholder="Your Last Name" required>
-            <br>
-            <br>
-        <label for="eml">Email-</label> 
-        <input type="email" name="email" id="eml" placeholder="Enter Email Address" placeholder="Your Email" required>
-        <br>
-        <br>
-        <label for="password">password</label>
-        <input type="text" name="password" id="password" pattern="^[A-Za-z0-9]{6,12}" placeholder="Your Password" required>
-        <br><br>
-        <label for="phone number">phone number-</label>
-        <input type="text" name="phone" id="phone number" pattern="[0-9]{10}" placeholder="Your Phone Number">
-        <br><br>
+        <form class="form" method="POST" action="mailto:se.hanna.kebede@gmail.com" enctype="UTF-8" > 
+            <td><div class="con-group"><label for="fname">F name</label>
+                <input type="text" name="fname" id="fname" pattern="[A-Za-z]{1,15}" title="F name must contain only letter and between 1 and 15 length character!" placeholder="Your First Name" required></div>
+            <div class="con-group"> <label for="lname">L name</label>
+                <input type="text" name="lname" id="lname" pattern="[A-Za-z]{1,15}" title="L name must contain only letter and between 1 and 15 length character!" placeholder="Your Last Name" required></div>
+            
+            <div class="con-group"> <label for="eml">Email-</label> 
+                <input type="email" name="email" id="eml" placeholder="Enter Email Address" placeholder="Your Email" required></div>
+        
+            <div class="con-group"> <label for="password">password</label>
+                <input type="text" name="password" id="password" pattern="^[A-Za-z0-9]{6,12}" placeholder="Your Password" required></div>
+        
+            <div class="con-group"><label for="phone number">phone number-</label>
+                <input type="text" name="phone" id="phone number" pattern="[0-9]{10}" placeholder="Your Phone Number"></div>
+        
         where are you from:
         <select name="Country" id="">
             <option value="Af">Africa</option>
             <option value="As">Asia</option>
             <option value="Eue">Europe</option>
         </select>
-        <br>
-        <br>
-        Live comment
-        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-        <br>
-        <input type="submit" value="Submit"></td>
-        <br>
+        
+        <div class="con-group"> <label for="comment">Live comment</label>
+            <textarea name="comment" id="comment" cols="20" rows="5"></textarea></div>
+       
+        <div class="con-sub"><input type="submit" value="Submit"></td></div>
+       
         </form>
-    <!-- </table>     -->
-<br>
-<a href="http://">facebook</a>
-<a href="http://">telegram</a>
-  <hr>
-  <p align="center">Develop by Hanna</p>  
+    </table>    
+
+<a class="media" href="http://www.Facebook.com">Facebook</a>
+<a class="media" href="http://www.Telegram.com">Telegram</a>
+  
+  <p class="lp">Developed by Hanna</p>  
 </body>
 </html>
