@@ -1,0 +1,261 @@
+body{
+    margin: 20px 20px;
+}
+/* 1*/
+#Italy > div {
+    float: left;
+    
+}
+#greeni{
+    background-color: green;
+    height: 200px;
+    width: 60px;
+}
+#whitei{
+    background-color: white;
+    height: 198px;
+    width: 60px;
+    border-top: gray solid 1px;
+    border-bottom: gray solid 1px;
+}
+#redi{
+    background-color: red;
+    height: 200px;
+    width: 60px;
+}
+
+/*2*/
+#kuwait{
+    background-color: white ;
+    border-right: solid gray 1px;
+    border-top: 20px solid green;
+    border-bottom: 20px solid red;
+    border-left: 20px solid black;
+    height: 30px;
+    width: 180px;
+    
+} 
+/*3*/
+#greenban{
+    background-color: green;
+    height:110px;
+    width: 200px;
+    margin: 2px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+#redban{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    margin: 33px 70px;
+    border-radius: 50%;
+}
+
+/*4*/
+#belgium > div{
+   float: left;
+}
+#black{
+    background-color: black;
+    height: 200px;
+    width: 60px;
+}
+#yellow{
+    background-color: yellow;
+    height: 200px;
+    width: 60px;
+}
+#redb {
+    background-color: red;
+    height: 200px;
+    width: 60px;
+}
+
+/*5*/
+#Australia{
+   position: relative; 
+}
+#red{
+    background-color: red;
+    height: 30px;
+    width: 200px;
+}
+#white{
+    background-color: white;
+    height: 30px;
+    width: 198px;
+    border-left: gray solid 1px;
+    border-right: gray solid 1px;
+}
+#red{
+    background-color: red;
+    height: 30px;
+    width: 200px;
+}
+
+/*6*/
+#colombia{
+    position: relative;
+}
+#orange{
+    background-color: orange;
+    height: 45px;
+    width: 200px;
+}
+#blue{
+    background-color: blue;
+    height: 22px;
+    width: 200px;
+}
+#red{
+    background-color: red;
+    height: 22px;
+    width: 200px;
+}
+
+
+/*7*/
+#TUarebemret > div:nth-of-type(1){
+    float: left;
+    border: gray solid 1px;
+}
+
+#reda{
+    background-color: red;
+    height: 90px;
+    width: 60px;
+}
+#greena{
+    background-color: green;
+    height: 30px;
+    width: 200px;
+}
+#whitea{
+    background-color:white;
+    border-right: gray solid 1px;
+    height: 30px;
+    width: 199px;
+}
+#blacka{
+    background-color: black;
+    height: 30px;
+    width: 200px;;
+}
+
+/*8*/
+#whitej{
+    background-color: white;
+    height:110px;
+    width: 200px;
+    margin: 2px;
+    padding: 0px;
+    overflow: hidden;
+    border: gray solid 1px;
+
+}
+#redj{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    margin: 31px 70px;
+    border-radius: 50%;
+}
+
+
+/*9*/
+#Poland{
+    position: relative;
+}
+#whitep{
+    background-color: white;
+    height: 60px;
+    width: 200px;
+    border: gray solid 1px ;
+}   
+#redp{
+    background-color: red;
+    height: 60px;
+    width: 200px;
+    border: gray solid 1px ;
+}
+
+/*10*/
+#Thailand{
+    position: relative;
+}
+#redt{
+    background-color: brown;
+    height: 25px;
+    width: 200px;
+}
+#whitet{
+    background-color: white;
+    height: 25px;
+    width: 198px;
+    border-left: gray solid 1px;
+    border-right: gray solid 1px;
+}
+#bluet{
+    background-color: darkslateblue;
+    height: 50px;
+    width: 200px;
+}
+#whitet{
+    background-color: white;
+    height: 25px;
+    width: 198px;
+    border-left: gray solid 1px;
+    border-right: gray solid 1px;
+}
+#redt{
+    background-color: brown;
+    height: 25px;
+    width: 200px;
+}
+
+/*11*/
+#russia{
+    position: relative;
+}
+#whiterus{
+    background-color: white;
+    border-left: gray solid 1px;
+    border-right: gray solid 1px;
+    border-top: gray solid 1px;
+    height: 30px;
+    width: 198px;    
+}
+#bluerus{
+    background-color: blue;
+    height: 30px;
+    width: 200px;
+}
+#redrus{
+    background-color: red;
+    height: 30px;
+    width: 200px;
+}
+/*12*/
+#ni > div{
+    position: relative;
+    float: left;
+}
+#greenn{
+    background-color: green;
+    height: 200px;
+    width: 60px;
+}
+#whiten{
+    background-color: white;
+    height: 200px;
+    width: 60px;
+    border-top: gray solid 1px;
+    border-bottom: gray solid 1px;
+}
+#greenn{
+    background-color: green;
+    height: 200px;
+    width: 60px;
+}
