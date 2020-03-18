@@ -38,3 +38,8 @@
     background-color: red;
     color: white;
 }
+#hr{
+    padding-bottom: 10px;
+    border-bottom: solid black 2px;
+    
+}
