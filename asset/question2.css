@@ -1,0 +1,37 @@
+a{
+    text-decoration: none;
+}
+
+#vl1{
+    height: 300px;
+    margin: 85px 480px;
+    border: black solid 3px;
+    position: absolute;
+
+}
+#vl2{
+    height: 300px;
+    border: solid black 3px;
+    margin: 85px 580px;
+    position: absolute;
+
+}
+#hl1{
+    width: 300px;
+    border: black solid 3px;
+    margin: 185px 380px;
+    position: absolute;
+}
+#hl2{
+    width: 300px;
+    border: solid black 3px;
+    margin: 285px 380px;
+    position: absolute;
+}
+
+h1{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    /* margin-top: 50px; */
+}

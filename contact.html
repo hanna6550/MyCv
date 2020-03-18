@@ -26,7 +26,7 @@
     <h1>Hanna Z</h1>
         <h3>Student, Addis Ababa Institute of Technology</h3>
         <p>Hi there</p>
-        <p>i am Hanna, i am expert <strong>Java</strong> Developer who has been on java since <em>6</em> years. i am passionate about working in different types of programming language.</p>
+        <p id="p2">i am Hanna, i am expert <strong>Java</strong> Developer who has been on java since <em>6</em> years. i am passionate about working in different types of programming language.</p>
     
     <hr>
     <h3>Contact .....Us</h3>  
@@ -35,6 +35,7 @@
         <form class="form" method="POST" action="mailto:se.hanna.kebede@gmail.com" enctype="UTF-8" > 
             <td><div class="con-group"><label for="fname">F name</label>
                 <input type="text" name="fname" id="fname" pattern="[A-Za-z]{1,15}" title="F name must contain only letter and between 1 and 15 length character!" placeholder="Your First Name" required></div>
+            
             <div class="con-group"> <label for="lname">L name</label>
                 <input type="text" name="lname" id="lname" pattern="[A-Za-z]{1,15}" title="L name must contain only letter and between 1 and 15 length character!" placeholder="Your Last Name" required></div>
             
@@ -42,10 +43,10 @@
                 <input type="email" name="email" id="eml" placeholder="Enter Email Address" placeholder="Your Email" required></div>
         
             <div class="con-group"> <label for="password">password</label>
-                <input type="text" name="password" id="password" pattern="^[A-Za-z0-9]{6,12}" placeholder="Your Password" required></div>
+                <input type="password" name="password" id="password" pattern="^[A-Za-z0-9]{6,12}" placeholder="Your Password" required></div>
         
             <div class="con-group"><label for="phone number">phone number-</label>
-                <input type="text" name="phone" id="phone number" pattern="[0-9]{10}" placeholder="Your Phone Number"></div>
+                <input type="number" name="phone" id="phone number" pattern="[0-9]{10}" placeholder="Your Phone Number"></div>
         
         where are you from:
         <select name="Country" id="">
@@ -55,7 +56,7 @@
         </select>
         
         <div class="con-group"> <label for="comment">Live comment</label>
-            <textarea name="comment" id="comment" cols="20" rows="5"></textarea></div>
+            <textarea name="comment" id="comment" cols="40" rows="5"></textarea></div>
        
         <div class="con-sub"><input type="submit" value="Submit"></td></div>
        
