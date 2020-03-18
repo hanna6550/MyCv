@@ -11,7 +11,7 @@ a{
 }
 #vl2{
     height: 300px;
-    border: solid black 3px;
+    border: black solid 3px;
     margin: 85px 580px;
     position: absolute;
 
@@ -24,7 +24,7 @@ a{
 }
 #hl2{
     width: 300px;
-    border: solid black 3px;
+    border: black solid 3px;
     margin: 285px 380px;
     position: absolute;
 }

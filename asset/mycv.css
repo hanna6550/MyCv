@@ -9,7 +9,7 @@
     display: block;
     margin-bottom: 0px;
 }
-.con-group input[type="text"], .con-group textarea{
+.con-group input{
     padding: 2px;
     width: 100%;
 }
@@ -32,8 +32,9 @@
     height: 30px;
     background-color: blue;
     color: white;
+    position: relative;
 }
 .con-sub:hover input[type="submit"]{
-    background-color: black;
+    background-color: red;
     color: white;
 }
