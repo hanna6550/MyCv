@@ -1,3 +1,7 @@
+a{
+    text-align: none;
+
+}
 .form{
     padding: 20px;
 }
@@ -92,3 +96,13 @@ img{
     font-weight: bold;
     
 }
+#gallaryh3{
+    text-transform: uppercase;
+    font-size: 3em;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: slategrey solid 2px;
+    padding-bottom: 1%;
+}
+
+
