@@ -1,7 +1,3 @@
-a{
-    text-align: none;
-
-}
 .form{
     padding: 20px;
 }
@@ -98,11 +94,22 @@ img{
 }
 #gallaryh3{
     text-transform: uppercase;
-    font-size: 3em;
     font-style: italic;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 50px;
+    margin-top: 30px;
+    font-size: 2em;
+    font-style: italic;
     border-bottom: slategrey solid 2px;
     padding-bottom: 1%;
 }
-
-
+.imgg{
+    float: left;
+    width: 30%;
+    margin-left: 1.7%;
+    margin-bottom: 10px;
+}
+#imgi{
+    height:200px;
+    width: 350px;
+}
