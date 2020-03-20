@@ -1,3 +1,6 @@
+*{
+    background-color: lightgrey;
+}
 a{
     text-decoration: none;
     font-weight: bold;
@@ -14,6 +17,9 @@ body{
     margin: 20px 20px;
 }
 /* 1*/
+#italy{
+    margin-top: 40px;
+}
 #Italy > div {
     float: left;
     
@@ -21,20 +27,20 @@ body{
 }
 #greeni{
     background-color: green;
-    height: 200px;
-    width: 60px;
+    height: 150px;
+    width: 80px;
 }
 #whitei{
     background-color: white;
-    height: 198px;
-    width: 60px;
+    height: 148px;
+    width: 80px;
     border-top: gray solid 1px;
     border-bottom: gray solid 1px;
 }
 #redi{
     background-color: red;
-    height: 200px;
-    width: 60px;
+    height: 150px;
+    width: 80px;
 }
 
 /*2*/
@@ -132,9 +138,27 @@ body{
     height: 22px;
     width: 200px;
 }
+/* 7 */
+#redla{
+    background-color: brown;
+    height: 40px;
+    width: 200px;
+}
+#whitela{
+    background-color: white;
+    border-right: gray solid 1px;
+    border-left: gray solid 1px;
+    height: 20px;
+    width: 198px;
+}
+#redla{
+    background-color:brown;
+    height: 40px;
+    width: 200px;
+}
 
 
-/*7*/
+/*8*/
 #TUarebemret > div:nth-of-type(1){
     float: left;
     border: gray solid 1px;
@@ -162,7 +186,7 @@ body{
     width: 200px;;
 }
 
-/*8*/
+/*9*/
 #whitej{
     background-color: white;
     height:110px;
@@ -182,7 +206,7 @@ body{
 }
 
 
-/*9*/
+/*10*/
 #Poland{
     position: relative;
 }
@@ -199,7 +223,7 @@ body{
     border: gray solid 1px ;
 }
 
-/*10*/
+/*11*/
 #Thailand{
     position: relative;
 }
@@ -233,7 +257,7 @@ body{
     width: 200px;
 }
 
-/*11*/
+/*12*/
 #russia{
     position: relative;
 }
@@ -255,35 +279,36 @@ body{
     height: 30px;
     width: 200px;
 }
-/*12*/
+/*13*/
 #ni > div{
     position: relative;
     float: left;
 }
 #greenn{
     background-color: green;
-    height: 200px;
-    width: 60px;
+    height: 140px;
+    width: 40px;
 }
 #whiten{
     background-color: white;
-    height: 200px;
-    width: 60px;
+    height: 138px;
+    width: 80px;
     border-top: gray solid 1px;
     border-bottom: gray solid 1px;
 }
 #greenn{
     background-color: green;
-    height: 200px;
-    width: 60px;
+    height: 140px;
+    width: 80px;
 }
 nav{
-    margin-left: 300px;
+    margin-left: 250px;
     padding-top: 50px;
 }
 h5{
     text-transform: uppercase;
     font-size: medium;
+    padding-top: 20px;
 }
 #flag6{
     margin-left: 100px;
@@ -291,6 +316,6 @@ h5{
 }
 
 
-/* #flag{
+#flag{
     display: flex;
-} */
+}

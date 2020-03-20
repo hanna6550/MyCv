@@ -1,3 +1,6 @@
+*{
+    background-color: lightgrey;
+}
 a{
     text-decoration: none;
     font-weight: bold;

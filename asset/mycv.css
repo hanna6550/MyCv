@@ -1,6 +1,6 @@
-*{
+/* *{
     background-color: silver;
-}
+} */
 a{
     text-decoration: none;
     font-weight: bold;
@@ -113,12 +113,13 @@ img{
     font-size: 2em;
     font-style: italic;
     border-bottom: slategrey solid 2px;
-    padding-bottom: 1%;
+    padding-bottom: 1px;
 }
 .imgg{
     float: left;
     width: 30%;
     margin-left: 1.7%;
+    margin-top: 1.7%;
     margin-bottom: 10px;
 }
 #imgi{
