@@ -1,3 +1,14 @@
+#ink{
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+    padding-left: 50px;
+    text-align: center;
+}
+a:hover{
+    color: black;
+}
+
 /* Style the HTML elements according to the following instructions. 
 DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
 

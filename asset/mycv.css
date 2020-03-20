@@ -1,3 +1,15 @@
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+    padding-left: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+a:hover{
+    color: black;
+}
+
 .form{
     padding: 20px;
 }
@@ -84,10 +96,7 @@ img{
     color: maroon;
     font-style: italic;
 }
-/* #u1{
-    width: 500px;
-    border: black dashed 1px;  */
-/* } */
+
 #l1{
     font-weight: bold;
     
@@ -112,6 +121,18 @@ img{
 #imgi{
     height:200px;
     width: 350px;
+}
+#imgc{
+    padding-left: 20px;
+    padding-top: 30px;
+    width: 600px;
+    height: 300px;
+}
+#pc{
+    text-align: center;
+}
+h1{
+    text-align: center;
 }
 
 

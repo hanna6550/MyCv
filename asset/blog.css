@@ -1,9 +1,21 @@
-#four{
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
     padding-left: 50px;
+    text-align: center;
 }
-#five{
-    padding-left: 50px;
+a:hover{
+    color: black;
 }
-#six{
-    padding-left: 50px;
+
+
+#q{
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+article{
+    padding: 10px;
+    margin-top: 10px;
 }

@@ -1,3 +1,14 @@
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+    padding-left: 50px;
+    text-align: center;
+}
+a:hover{
+    color: black;
+}
+
 body{
     margin: 20px 20px;
 }
@@ -259,3 +270,8 @@ body{
     height: 200px;
     width: 60px;
 }
+
+
+/* #flag{
+    display: flex;
+} */
