@@ -4,6 +4,7 @@ a{
     color: blue;
     padding-left: 50px;
     text-align: center;
+    text-transform: uppercase;
 }
 a:hover{
     color: black;
@@ -15,6 +16,7 @@ body{
 /* 1*/
 #Italy > div {
     float: left;
+    
     
 }
 #greeni{
@@ -45,7 +47,12 @@ body{
     height: 30px;
     width: 180px;
     
+    
 } 
+#k{
+    margin-left: 550px;
+    text-transform: uppercase;
+}
 /*3*/
 #greenban{
     background-color: green;
@@ -269,6 +276,18 @@ body{
     background-color: green;
     height: 200px;
     width: 60px;
+}
+nav{
+    margin-left: 300px;
+    padding-top: 50px;
+}
+h5{
+    text-transform: uppercase;
+    font-size: medium;
+}
+#flag6{
+    margin-left: 100px;
+    padding-top: 0px;
 }
 
 

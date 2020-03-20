@@ -1,9 +1,14 @@
+*{
+    background-color: skyblue;
+}
 a{
     text-decoration: none;
     font-weight: bold;
     color: blue;
     padding-left: 50px;
     text-align: center;
+    text-transform: uppercase;
+    
 }
 a:hover{
     color: black;
@@ -11,7 +16,7 @@ a:hover{
 
 #vl1{
     height: 300px;
-    margin: 85px 480px;
+    margin: 50px 480px;
     border: black solid 3px;
     position: absolute;
 
@@ -19,29 +24,34 @@ a:hover{
 #vl2{
     height: 300px;
     border: black solid 3px;
-    margin: 85px 580px;
+    margin: 50px 580px;
     position: absolute;
 
 }
 #hl1{
     width: 300px;
     border: black solid 3px;
-    margin: 185px 380px;
+    margin: 150px 380px;
     position: absolute;
 }
 #hl2{
     width: 300px;
     border: black solid 3px;
-    margin: 285px 380px;
+    margin: 250px 380px;
     position: absolute;
 }
 
 h1{
-    font-size: 20px;
+    margin-top: 80px;
+    font-size: 40px;
     font-style: italic;
     text-align: center;
 
 }
-#hoverr:hover{
+#tictac{
+    display: flex;
+    flex-shrink: 0;
+}
+nav:hover{
     color: blue;
 }

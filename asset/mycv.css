@@ -1,3 +1,6 @@
+*{
+    background-color: silver;
+}
 a{
     text-decoration: none;
     font-weight: bold;
@@ -123,12 +126,12 @@ img{
     width: 350px;
 }
 #imgc{
-    padding-left: 20px;
+    padding-left: 220px;
     padding-top: 30px;
     width: 600px;
     height: 300px;
 }
-#pc{
+#pcontact{
     text-align: center;
 }
 h1{
@@ -200,9 +203,7 @@ h1{
 #t2{
     order: 1;
 }
-/* #gallflex{
-    display: flex;
-} */
+
 #imgflex1{
     display: flex;
     flex-basis: 25%;
@@ -235,6 +236,7 @@ h1{
     flex: 2;
 }
 #flexinput{
+    justify-content: space-between;
     flex-shrink: 0;
     flex: 1;
 }

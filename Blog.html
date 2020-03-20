@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="asset/images/img6.jpg">
     <link rel="stylesheet" href="./asset/blog.css">
     <title>Blog</title>
 </head>
     <a href="index.html" >Home</a>
-    <a href="contact.html" >Contact</a>
     <a href="Gallary.html" >Gallary</a>
+    <a href="contact.html" >contact</a>
     <a href="Blog.html">Blog</a> 
     <a href="MyWork.html">MYWork</a> 
 <body>
@@ -30,10 +31,11 @@
         <section>
             <p id="q">5. We said 16px is default browser width so what does it mean when we say 200px ? How does the browser interpret that ?</p>
             <article>
-            <p>These means the default value changes and the browser will interpret the new value:</p>
-                <p>As EM => 1em = 200px  &nbsp;&nbsp;&nbsp; 2em = 400px  &nbsp;&nbsp;&nbsp; 0.5em = 100px  </p>
-                <p>As REm => 1rem = 200px  &nbsp;&nbsp;&nbsp; 2rem = 400px  &nbsp;&nbsp;&nbsp; 0.5rem = 100px </p>
-                <p>As % => 100% = 200px &nbsp;&nbsp;&nbsp; 200% = 400px  and so on</p>
+            <p>These means the default value changes and the browser will interpret the new value as:</p>
+                <p> In default, 16px = 1em = 1rem = 100% and for 200px  </p>
+                <p>EM => 1em = 200px,  &nbsp;&nbsp;&nbsp; 2em = 400px,  &nbsp;&nbsp;&nbsp; .5em = 100px  </p>
+                <p>REm => 1rem = 200px,  &nbsp;&nbsp;&nbsp; 2rem = 400px,  &nbsp;&nbsp;&nbsp; .5rem = 100px </p>
+                <p> % => 100% = 200px, &nbsp;&nbsp;&nbsp; 200% = 400px,  and so on</p>
             </article>
         </section>
 
@@ -41,21 +43,21 @@
             <p id="q"> 6. Explain in detail(in technical terms) the specific changes in css3</p>
             <article>
                     <p>1. RGBA: CSS 3 introduces a modification and added opacity manipulation to this property. RGB has been transformed to RGBA (Red Green Blue Alpha channels), which simplifies how to control the opacity of elements. <br> {background: rgba(217, 127, 185, .5); }</p>
-                    <p>2. Round corners: CSS 3 addresses  the border-radius property, which gives the same rounded-corner effect without writeing all the code.</p>
+                    <p>2. Round corners: CSS 3 addresses  the border-radius property, which gives the same rounded-corner effect without writeing all the code. <br>{ border: 2px solid orange; border-radius : 25px; width: 100px; padding: 10px; text-align:center;  }</p>
                     <p>3. Border image:  is the ability to swap out a border with an image. The property border-image allows to specify an image to display instead of a plain solid-colored border.</p>
-                    <p>4. Transform: CSS 3 introduced a property called transform, which enables rotating Web elements on a webpage. </p>
+                    <p>4. Transform: CSS 3 introduced a property called transform, which enables rotating Web elements on a webpage. <br>{ -moz-transform: rotate(180deg); -webkit-transform: rotate(180deg);} </p>
                     <p>5. Web Fonts: CSS 3 also update embedding any custom font on a webpage. Fonts are dependent on the client system and Web pages can render only fonts that are supported by the browser or the client machine. By using the @font-face property, it is able to include the font from a remote location and can then use it.</p>
                     <p>6. Selectors: CSS 3 introduces some new selectors. Using these selectors its able to choose DOM elements based on their attributes. So no need to specify classes and IDs for every element. Instead, utilize the attribute field to style them.</p>
                     <p>7. Box Shadow: A box shadow allows to create a drop shadow for an element. Usually this effect is achieved using a repeated image around the element. However, with the property box-shadow this can be achieved by writing a single line of CSS code.
-                        <br> box-shadow:3px 3px 3px 2px 
+                        <br> {box-shadow:3px 3px 3px 2px  #797979} 
                     </p>
-                    <p>8. Text Shadow: The new text-shadow property allows you to add drop shadows to the text on a webpage. text-shadow: #aaa 2px 2px 2px;</p>
+                    <p>8. Text Shadow: The new text-shadow property allows you to add drop shadows to the text on a webpage.  <br>{ text-shadow: #aaa 2px 2px 2px; }</p>
                     <p>
-                        there are also another changes in CSS3 like,
+                       <strong> there are also another changes in CSS3 like,
                   animation and transition, calculating values with calcC,
                 generate content and countets, box sizing, 
                   media queries , multiple backgrounds , 3D transforms, 
-                  sun fiter effect.
+                  Multicolumn Layout.</strong>
                 </p>
             </article>
         </section>
