@@ -84,10 +84,10 @@ img{
     color: maroon;
     font-style: italic;
 }
-#u1{
+/* #u1{
     width: 500px;
-    border: black dashed 1px; 
-}
+    border: black dashed 1px;  */
+/* } */
 #l1{
     font-weight: bold;
     
@@ -96,7 +96,7 @@ img{
     text-transform: uppercase;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
-    padding-left: 50px;
+    padding-left: 50px; 
     margin-top: 30px;
     font-size: 2em;
     font-style: italic;
@@ -112,4 +112,108 @@ img{
 #imgi{
     height:200px;
     width: 350px;
+}
+
+
+/* flexable box */
+
+#flex0{
+    display: flex;
+    
+    flex-basis: 20%;
+}
+#flex0 img{
+    flex: 1;
+}
+#ind{
+    flex-shrink: 0;
+}
+
+@media(min-width:568px){
+    #flex1{
+        display: flex;
+        justify-content: space-between;
+    } 
+
+}
+
+#flex1 div{
+  border: black 1px solid;
+  padding: 10px;
+  background-color: cadetblue;
+  margin: 10px;
+}
+#box1{
+    flex: 2;
+    order: 3;
+    flex-shrink: 0;
+
+}
+#box2{
+    flex: 1;
+    order: 1;
+    flex-shrink: 0;
+}
+#box3{
+    flex: 2;
+    order: 2;
+    flex-shrink: 0;
+}
+#box3, #box2, #box1{
+    flex-basis: 25%;
+}
+#flex2{
+    display: flex;
+    justify-content: center;
+}
+#flex2 div{
+    border: solid 1px black;
+    margin: 15px;
+    padding: 15px;
+    background-color: cadetblue;
+    
+}
+#t1{
+   order: 2; 
+}
+#t2{
+    order: 1;
+}
+/* #gallflex{
+    display: flex;
+} */
+#imgflex1{
+    display: flex;
+    flex-basis: 25%;
+    order: 2;
+
+}
+#imgflex2{
+    display: flex;
+    flex-basis: 25%;
+    order: 1;
+    
+}
+#imgflex3{
+    display: flex;
+    flex-basis: 25%;
+    order: 3;
+    
+}
+@media(min-width:568px){
+#flexcontact{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 25%;
+    flex-shrink: 0;
+}
+}
+#conimgf{
+    display: flex;
+    flex-shrink: 0;
+    flex: 2;
+}
+#flexinput{
+    flex-shrink: 0;
+    flex: 1;
 }
